@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace exercises
 {
     public class PrimeFactors
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             MyFermatFactorization();
 
@@ -16,7 +12,7 @@ namespace exercises
             Console.WriteLine("Eight factorial = " + answer + ".");
         }
 
-        static void MyFermatFactorization()
+        private static void MyFermatFactorization()
         {
             double fermatNumber5 = 4294967297;
             double squareRoot = Math.Round(Math.Sqrt(fermatNumber5));
@@ -40,4 +36,3 @@ namespace exercises
         }
     }
 }
-
