@@ -16,7 +16,5 @@ namespace exercises
             }
             return number * Factorial(number - 1);
         }
-
     }
-
 }

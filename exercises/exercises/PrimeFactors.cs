@@ -13,7 +13,7 @@ namespace exercises
             MyFermatFactorization();
 
             int answer = Factorials.Factorial(8);
-            Console.WriteLine("Eight factorial = " + answer +".");
+            Console.WriteLine("Eight factorial = " + answer + ".");
         }
 
         static void MyFermatFactorization()
@@ -36,9 +36,7 @@ namespace exercises
                     Console.WriteLine("The first factor is " + i + ".");
                     break;
                 }
-
             }
-
         }
     }
 }
