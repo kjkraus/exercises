@@ -11,6 +11,9 @@ namespace exercises
         static void Main(string[] args)
         {
             MyFermatFactorization();
+
+            int answer = Factorials.Factorial(8);
+            Console.WriteLine("Eight factorial = " + answer +".");
         }
 
         static void MyFermatFactorization()
