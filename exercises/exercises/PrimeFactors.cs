@@ -15,6 +15,16 @@ namespace exercises
             int dieRoll = random.Next(6) + 1; // returns numbers between 1 and 6
             double probability = random.NextDouble(); // returns numbers between 0 and 1
             Console.WriteLine(" Random (1-6): " + dieRoll + "  Probability: " + probability);
+
+            Player player = new Player("Aristos");
+
+            while (player.GetLives() > 0)
+            {
+                player.AddPoints(100);
+
+                player.Kill();
+            }
+
         }
 
         private static void MyFermatFactorization()
