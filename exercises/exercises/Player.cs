@@ -55,7 +55,7 @@
             set
             {
                 score = value;
-                if (score <= 0)
+                if (score < 0)
                 {
                     score = 0;
                 }
