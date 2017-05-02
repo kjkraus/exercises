@@ -45,5 +45,21 @@
         {
             return livesLeft;
         }
+
+        public int Score
+        {
+            get
+            {
+                return score;
+            }
+            set
+            {
+                score = value;
+                if (score < 0)
+                {
+                    score = 0;
+                }
+            }
+        }
     }
 }
