@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factorials.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="PrimeFactors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randoms.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

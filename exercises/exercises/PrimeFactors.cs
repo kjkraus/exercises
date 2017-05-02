@@ -10,6 +10,11 @@ namespace exercises
 
             int answer = Factorials.Factorial(8);
             Console.WriteLine("Eight factorial = " + answer + ".");
+
+            Random random = new Random();
+            int dieRoll = random.Next(6) + 1; // returns numbers between 1 and 6
+            double probability = random.NextDouble(); // returns numbers between 0 and 1
+            Console.WriteLine(" Random (1-6): " + dieRoll + "  Probability: " + probability);
         }
 
         private static void MyFermatFactorization()
