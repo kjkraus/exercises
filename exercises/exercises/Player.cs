@@ -61,5 +61,7 @@
                 }
             }
         }
+
+        // public int Score { get; set; }  equivalent shorthand
     }
 }

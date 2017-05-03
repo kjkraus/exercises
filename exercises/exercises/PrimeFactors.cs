@@ -25,6 +25,9 @@ namespace exercises
                 player.Kill();
             }
 
+            Player player2 = new Player("Beatrice");
+            int currentScore = player2.Score;
+            player2.Score = 50;
         }
 
         private static void MyFermatFactorization()
